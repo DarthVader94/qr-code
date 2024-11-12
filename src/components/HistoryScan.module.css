@@ -1,0 +1,10 @@
+*{
+   box-sizing: border-box;
+}
+.history__scan {
+   display: flex;
+   color: #6018d3ee;
+   font-size: 20px;
+   flex-direction: column;
+}
+

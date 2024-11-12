@@ -1,0 +1,55 @@
+* {
+   box-sizing: border-box;
+}
+
+body {
+   font-family: Arial, Helvetica, sans-serif;
+   background: rgb(46 55 148 / 53%)
+}
+
+.wrapper {
+   /*display: inline;*/
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   gap: 15px;
+   margin: 0 auto;
+   padding: 50px;
+}
+
+.qr__wrapp svg path:last-child{
+   fill: rgb(0, 2, 128);
+}
+
+.input__result {
+   padding: 8px 16px;
+  border: .5px solid #333;
+  color: white;
+  max-width: 400px;
+  min-height: 50px;
+   border-radius:  5px;
+   background: rgb(71, 72, 180);
+   border-radius: 10px;
+   margin-right: 5px;
+   font-size: 32px;
+}
+
+.btn {
+   color: white;
+   font-size: 20px;
+   border: none;
+   border-radius: 16px;
+   cursor: pointer;
+   padding: 8px 20px;
+   background: rgb(71, 72, 180);
+}
+
+.qr {
+   border-radius: 10px;
+}
+
+.nav {
+   display: flex;
+   flex-direction: column;
+}
