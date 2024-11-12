@@ -8,7 +8,6 @@ export const GenerateHistory = () => {
 
    return (
       <div>
-         //!Изменения
          {date.map((text) => (
             <p className={s.history__scan} key={text}>{text}
                <QRCodeSVG value={text} size={100} />
